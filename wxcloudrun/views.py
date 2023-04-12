@@ -89,3 +89,12 @@ def update_count(request):
     else:
         return JsonResponse({'code': -1, 'errorMsg': 'action参数错误'},
                     json_dumps_params={'ensure_ascii': False})
+
+
+def test(request):
+    """测试接口
+
+    Args:
+        request (_type_): _description_
+    """
+     return JsonResponse({"test": "success"})
