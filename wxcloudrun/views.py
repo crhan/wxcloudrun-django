@@ -91,7 +91,7 @@ def update_count(request):
                     json_dumps_params={'ensure_ascii': False})
 
 
-def test(request):
+def test(request, _):
     """测试接口
 
     Args:
