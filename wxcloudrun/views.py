@@ -97,4 +97,4 @@ def test(request):
     Args:
         request (_type_): _description_
     """
-     return JsonResponse({"test": "success"})
+    return JsonResponse({"test": "success"})
